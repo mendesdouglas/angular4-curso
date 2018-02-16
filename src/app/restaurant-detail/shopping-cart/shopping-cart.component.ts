@@ -30,7 +30,7 @@ export class ShoppingCartComponent implements OnInit {
   }
 
   addItem(item:any){
-    console.log(item)
-    //this.shoppingCartService.addItem(item)
+    //console.log(item)
+    this.shoppingCartService.addItem(item)
   }
 }
